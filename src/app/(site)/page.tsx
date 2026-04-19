@@ -187,24 +187,6 @@ export default async function Home() {
                 </div>
               )}
               
-              {/* Floating rating card */}
-              <div className="absolute -bottom-3 sm:-bottom-5 md:-bottom-6 -left-3 sm:-left-5 md:-left-6 bg-white/90 backdrop-blur-xl p-3 sm:p-4 md:p-6 lg:p-8 rounded-[1.25rem] sm:rounded-[1.5rem] md:rounded-[2rem] shadow-2xl border border-[var(--color-primary)]/10 hover:shadow-[var(--color-primary)]/20 hover:-translate-y-2 transition-all duration-500 cursor-default z-20">
-                <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
-                  <div className="bg-gradient-to-br from-[var(--color-highlight)] to-[var(--color-accent)] p-2 sm:p-3 md:p-4 rounded-lg sm:rounded-xl md:rounded-2xl shadow-lg">
-                    <Star className="text-white w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" fill="currentColor" size={28} />
-                  </div>
-                  <div>
-                    <p className="text-xl sm:text-2xl md:text-3xl font-black text-[var(--color-primary)]">
-                      {reviewsData.average_rating > 0 
-                        ? `${reviewsData.average_rating.toFixed(1)}/5`
-                        : 'N/A'}
-                    </p>
-                    <p className="text-xs sm:text-sm font-bold text-gray-500 uppercase tracking-widest">
-                      Satisfaction Client
-                    </p>
-                  </div>
-                </div>
-              </div>
               
               {/* Floating location card */}
               <div className="absolute top-2 sm:top-6 md:top-8 -right-3 sm:-right-5 md:-right-6 bg-white/90 backdrop-blur-xl p-3 sm:p-4 md:p-5 lg:p-6 rounded-[1rem] sm:rounded-[1.25rem] md:rounded-[1.5rem] shadow-2xl border border-[var(--color-primary)]/10 hover:shadow-[var(--color-primary)]/20 hover:translate-y-2 transition-all duration-500 cursor-default z-20">
