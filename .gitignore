@@ -45,8 +45,8 @@ Thumbs.db
 prisma/dev.db
 prisma/*.db
 
-# Uploads (user-generated content)
-public/uploads/*
+# Uploads - Include existing demo images, ignore new uploads
+public/uploads/!*.*
 !public/uploads/.gitkeep
 
 # Documentation (optional - keep if needed)
