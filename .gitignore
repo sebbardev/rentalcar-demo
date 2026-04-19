@@ -1,0 +1,56 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# OS
+Thumbs.db
+
+# Database
+prisma/dev.db
+prisma/*.db
+
+# Uploads (user-generated content)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Documentation (optional - keep if needed)
+# OPTIMIZATION_SUMMARY.md
+# QUICK_START.md
+# VERCEL_DEPLOYMENT.md
+# VERCEL_READY.md
